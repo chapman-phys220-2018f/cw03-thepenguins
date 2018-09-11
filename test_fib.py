@@ -22,6 +22,7 @@ def test_fib_eighth():
     out = io.StringIO()
     with contextlib.redirect_stdout(out):
         # then run the script with commandline argument "6"
-        fib.main(["6"])
+        # note that argument 0 is always the program name itself
+        fib.main(["./fib.py", "6"])
     # then check printed output in string, stripping newline characters
     assert out.getvalue().strip() == "8"
