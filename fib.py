@@ -11,10 +11,10 @@ def main(local_argv):
     # storing first value in list of command line arguments for use in sequence
     n = int(local_argv[1])
 
-    print(sequences.fibonacci(n).pop())
+    print(fib(n).pop())
 
 # Below is the python convention for defining an executable main section
 if __name__ == "__main__":
-    import sequences # contains fibonacci function
+    from sequences import fibonacci as fib
     import sys
     main(sys.argv)
