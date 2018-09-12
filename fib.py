@@ -5,6 +5,8 @@
 # PHYS220/MATH220/CPSC220 Fall 2018 Assignment: CW03
 ###
 def main(local_argv):
+    from sequences import fibonacci as fib
+
     print("This program imports the sequences module, reads a command line"+
           " argument 'n', and returns the 'n'th fibonacci number")
 
