@@ -31,8 +31,7 @@ Note : the homework this week will be to finish all of the classwork, and includ
 
 Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have. You can use the GitHub web interface to edit this file directly for now.
 
-**CHANGEME**
-
+**This assignments sees us combining our existing knowledge in bash scripting and python. This assignment was helpful in illustrating a good program workflow with modular code. Because of this modular design, if we came back to this assignment in the future it would be easy and painless to edit existing modules or add new ones without cluttering the main executable function**
 ## Honor Pledge
 
 I pledge that all the work in this repository is my own with only the following exceptions:
@@ -41,4 +40,4 @@ I pledge that all the work in this repository is my own with only the following 
 * Code borrowed from another source, documented with correct attribution in the code and summarized here.
 
 Signed,
-Enea Dodi, Jack Savage, Gwyneth Casey
+# Enea Dodi, Jack Savage, Gwyneth Casey
